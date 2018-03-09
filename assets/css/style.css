@@ -1,0 +1,95 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  margin-top: .5rem;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+
+.bg-light {
+  background-image: url("../images/concrete-texture.png");
+}
+
+.navbar-style {
+  border-bottom: 2px solid #ccc;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-content {
+  height: 60px;
+  padding: 0!important;
+}
+
+.brand-style {
+  background-color: #4aaaa5;
+  color: #fff!important;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  font-family: "Georgia", serif;
+}
+
+.main-content {
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+
+}
+
+.contact-side {
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.headshot {
+  width: 300px;
+  margin: 0 20px 20px 0;
+}
+
+.main-body {
+  min-height: calc(100vh - 70px);
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-links > a > img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.footer {
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-right: 0;
+  }
+
+  .headshot {
+    width: 100%;
+    margin: 0;
+  }
+
+  .social-links {
+    justify-content: flex-start;
+  }
+}
