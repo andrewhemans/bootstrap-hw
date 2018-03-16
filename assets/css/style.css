@@ -128,7 +128,7 @@ h1 {
 }
 
 #hangman {
-  background-image: url('../images/hang.jpg');
+  background-image: url('../images/hang.png');
   background-size: cover;
   background-position: center;
 }
